@@ -1,0 +1,48 @@
+{% extends 'weblog/layout.html' %}
+{% load static %}
+{% block title %}
+	blog API
+{% endblock %}
+{% block body %}
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Blog</h2>
+                <h5>Blog API WebSite</h5>
+                <p>A Blog API (Application Programming Interface) allows different applications to communicate with each
+                    other. In the context of a blog, a Blog API enables you to extract and share blog information using
+                    specified protocols and routines.</p>
+                <h3 class="mt-4">Links</h3>
+                <p>for put - delete go to : localhost:8000/posts/post_id</p>
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">access token</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">refresh token</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">posts list</a>
+                    </li>
+                </ul>
+                <hr class="d-sm-none">
+            </div>
+            <div class="col-sm-8">
+                <img src="{% static 'weblog/img/django_rest_framework.jpg' %}"  alt="django_rest_framework">
+                <h2>What is API ?</h2>
+                <p>An API (application programming interface) is a set of protocols that allows different software
+                    components to communicate and exchange data1. Developers use APIs to bridge the gaps between small,
+                    discrete chunks of code, creating powerful, resilient, and secure applications that meet user needs.
+                    APIs are everywhere, working behind the scenes to power our modern digital experiences. They’ve
+                    evolved over time, with phases including commercial APIs, social media APIs, cloud APIs, and APIs
+                    for mobile applications1. Essentially, APIs enable seamless interaction between software systems,
+                    making them essential for modern software development and integration</p>
+            </div>
+        </div>
+    </div>
+    <hr class="d-sm-none">
+{% endblock %}
