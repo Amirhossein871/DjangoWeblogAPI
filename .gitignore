@@ -1,0 +1,15 @@
+# Django
+db.sqlite3
+
+# PyCharm
+.idea/
+
+# Environments
+.venv/
+
+
+
+
+
+
+
