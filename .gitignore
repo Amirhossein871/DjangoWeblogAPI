@@ -1,6 +1,9 @@
 # Django
 db.sqlite3
-
+blog/__pycache__/
+accounts/__pycache__/
+index/__pycache__/
+weblog/__pycache__/
 # PyCharm
 .idea/
 
