@@ -11,9 +11,11 @@ pip install djangorestframework
 pip install djangorestframework-simplejwt
 pip install drf-spectacular
 ```
+## Recommended versions of Python
+- 3.11.6 (Recommended)
+- 3.10.6
 
 ## How to use?
-
 - Clone the repository
 - Inside the project folder, open terminal
 - Migrate to database :
