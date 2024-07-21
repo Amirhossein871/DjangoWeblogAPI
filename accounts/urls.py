@@ -5,5 +5,5 @@ from . import views
 urlpatterns = [
     path('register/api/', views.RegisterAPIView.as_view(), name='register_api_view'),
     path('login/api/', TokenObtainPairView.as_view(), name='login_access_api_view'),
-    path('login/api/refresh-token/', TokenRefreshView.as_view(), name='')
+    path('login/api/refresh-token/', TokenRefreshView.as_view(), name='login_refresh_api_view')
 ]

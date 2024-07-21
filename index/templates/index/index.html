@@ -17,16 +17,16 @@
                 <p>for put - delete go to : localhost:8000/posts/post_id</p>
                 <ul class="nav nav-pills flex-column">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">access token</a>
+                        <a class="nav-link" href="{% url 'login_access_api_view' %}">access token</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">refresh token</a>
+                        <a class="nav-link" href="{% url 'login_refresh_api_view' %}">refresh token</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">register</a>
+                        <a class="nav-link" href="{% url 'register_api_view' %}">register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">posts list</a>
+                        <a class="nav-link" href="{% url 'post_list_create_api' %}">posts list</a>
                     </li>
                 </ul>
                 <hr class="d-sm-none">
